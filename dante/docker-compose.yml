@@ -1,0 +1,8 @@
+version: "2"
+
+services:
+  dante:
+    build: .
+    ports:
+      - 1080:1080
+      - 1022:1080
